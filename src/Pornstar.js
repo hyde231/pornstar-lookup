@@ -86,7 +86,7 @@ const Pornstar = ({data}) => {
 const IdList = ({list, id}) => {
     //console.log(list);
     const links = list.map( scope => {
-        return (<a href={getUrl(scope,id)}>{scope} </a>);
+        return (<a href={getUrl(scope,id)} target="_blank"  rel="noopener noreferrer">{scope} </a>);
     });
     return (<span>{links}</span>);
 };
