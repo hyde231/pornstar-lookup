@@ -7,11 +7,11 @@ import TypoGraphy from '@material-ui/core/Typography'
 import { GitHub } from '@material-ui/icons'
 import Grid from '@material-ui/core/Grid';
 
-import Pornstar from './Pornstar.js';
+import Pornstar from './components/Pornstar.js';
 
 const { IdentityList } = require("./IdentityList.js");
 
-const Data = require("./Pornstars.combined.json"); 
+const Data = require("./data/Pornstars.combined.json"); 
 let Pornstars = new IdentityList(Data);
 let scopes = new Set();
 Pornstars.list.forEach( ps => {
