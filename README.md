@@ -30,7 +30,6 @@ The challenge is to create a combined list, that does not include 260k+ entries 
 ## Installation
 - Prerequisites: Git & Node.js installed
 - `git clone` this repo into a project directory of your choice
-- unzip Pornstars.combined.zip into ./src/data/
 - `npm start`
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
