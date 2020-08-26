@@ -1,4 +1,7 @@
-# pdb - NSFW!
+# Pornstar-Lookup
+
+NSFW !!!
+
 Listing 136651 individual pornstars with 281427 aliases, based on 267600 raw entries scraped from 10 different soruces.
 
 ## Purpose
@@ -25,11 +28,11 @@ Added on Aug 24th & 25th
 The challenge is to create a combined list, that does not include 260k+ entries but groups as many duplictes as possible.
 
 ## Installation
-Prerequisites: Git & Node.js installed
-`git clone` this repo into a project directory of your choice
-unzip Pornstars.combined.zip into ./src/data/
-`npm start`
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Prerequisites: Git & Node.js installed
+- `git clone` this repo into a project directory of your choice
+- unzip Pornstars.combined.zip into ./src/data/
+- `npm start`
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Method of aggregation
 ...to be updated...
@@ -42,44 +45,64 @@ In the example below, the performer is listed with the id 'adrianna-sage' (with 
 
 ```
 {
-	"uuid": "fdca101c-24a4-4806-b249-0483154a2692",
+	"uuid": "d830ed47-0e58-4edd-89a7-d42a0b496389",
 	"ids": {
-		"Adriana Sage_11565": [
-			"thenude"
-		],
 		"adriana-sage": [
-			"indexxx",
-			"freeones"
-		],
-		"adriana+sage": [
-			"pornpics"
+			"freeones",
+			"indexxx"
 		],
 		"Adriana_Sage": [
 			"babepedia"
 		],
+		"adriana+sage": [
+			"pornpics"
+		],
+		"adriana_sage": [
+			"data18",
+			"pornstar",
+			"mypornstarbook"
+		],
 		"/27419/adriana-sage-pornstars": [
 			"adultempire"
 		],
-		"adrianna-sage": [
-			"tpdb"
+		"adriana-sage/565": [
+			"kindgirls"
+		],
+		"Adriana Sage_11565": [
+			"thenude"
 		]
 	},
 	"names": {
 		"Adriana Sage": [
-			"thenude",
-			"indexxx",
 			"freeones",
-			"pornpics",
 			"babepedia",
-			"adultempire"
+			"pornpics",
+			"data18",
+			"adultempire",
+			"pornstar",
+			"mypornstarbook",
+			"kindgirls",
+			"indexxx",
+			"thenude"
 		],
 		"Adriana": [
-			"thenude",
-			"indexxx",
 			"freeones",
 			"pornpics",
-			"babepedia",
-			"adultempire"
+			"indexxx",
+			"thenude"
+		],
+		"Maryjane": [
+			"ATKingdom",
+			"indexxx",
+			"thenude"
+		],
+		"Adrianna": [
+			"indexxx",
+			"thenude"
+		],
+		"Adrianna Sage": [
+			"indexxx",
+			"thenude"
 		],
 		"Adrian Sage": [
 			"thenude"
@@ -89,16 +112,6 @@ In the example below, the performer is listed with the id 'adrianna-sage' (with 
 		],
 		"Adriana M": [
 			"thenude"
-		],
-		"Adrianna": [
-			"thenude",
-			"indexxx",
-			"tpdb"
-		],
-		"Adrianna Sage": [
-			"thenude",
-			"indexxx",
-			"tpdb"
 		],
 		"Adrianna-sage": [
 			"thenude"
@@ -111,11 +124,6 @@ In the example below, the performer is listed with the id 'adrianna-sage' (with 
 		],
 		"Lana": [
 			"thenude"
-		],
-		"Maryjane": [
-			"thenude",
-			"ATKingdom",
-			"indexxx"
 		],
 		"Rosa": [
 			"thenude"
