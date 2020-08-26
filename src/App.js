@@ -8,9 +8,7 @@ import { GitHub } from '@material-ui/icons'
 import Grid from '@material-ui/core/Grid';
 
 import Pornstar from './components/Pornstar.js';
-
 const { IdentityList } = require("./IdentityList.js");
-
 const Data = require("./data/Pornstars.combined.json"); 
 let Pornstars = new IdentityList(Data);
 let scopes = new Set();
@@ -19,12 +17,11 @@ Pornstars.list.forEach( ps => {
 });
 
 //TODO Lookup into on Component
-//TODO Statistics on searhc results (results found, out of x entries, in Y ms)
+//TODO Statistics on search results (results found, out of x entries, in Y ms)
 //TODO Highlight search terms
 //TODO select list component
 //TODO Search for substrings
 //TODO search for combination of names
-//TODO Add default pic
 
 const LookupForm = ({lookup}) => {
   let input;
@@ -37,7 +34,7 @@ const LookupForm = ({lookup}) => {
         lookup(input.value);
         input.value = '';
       }}>
-        Lookup
+        Search for name
       </button>
     </div>
   )
@@ -83,22 +80,23 @@ function App() {
           <TypoGraphy variant="h4"
             color="inherit"
           >
-            Pornstar Identity Lookup
+            Pornstar Identity Lookup 
+          </TypoGraphy>
+
+          <TypoGraphy variant="inherit"
+            color="inherit"
+            align="right"
+          >
+            <a
+              href="https://github.com/hyde231/pdb"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GitHub style={{ color: '#ffffff'}}/>
+            </a>
           </TypoGraphy>
         </Toolbar>
       </AppBar>
-      <TypoGraphy variant="inherit"
-        color="inherit"
-        align="right"
-      >
-        <a
-          href="https://github.com/hyde231/pdb"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <GitHub />
-        </a>
-      </TypoGraphy>
       <Lookup />
     </div>
   );

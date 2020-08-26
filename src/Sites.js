@@ -5,19 +5,19 @@ const DEFAULT_PIC = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAtQAAAQACAYAA
 let Sites = {};
 Sites = {
     data: {
-        eurobabeindex: {
-            name:       "Eurobabeindex",
-            url:        "https://www.eurobabeindex.com",
-            idToUrl:    (id) => `https://www.eurobabeindex.com/sbandoindex/${id}.html`,
-            //idToPicUrl: (id) => `https://www.eurobabeindex.com/sbandoindex/thumbnails/shadows/${id}.jpg`,   //Hotlinking doesn't seem to work
-            favicon:    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVQ4jWM4c+bMf0oww5kzZ/6Hhq7CwGfOnPn/40YGCoZpevfu3f93796RbgDMEJwGoDsPWdNIMQDdILJjgWwDBj4MBt4AipMy2ZmJEgwACdw1nu9RXwgAAAAASUVORK5CYII=",
-        },
         thenude: {
             name:       "The Nude",
             url:        "https://www.thenude.com",
             idToUrl:    (id) => `https://www.thenude.com/${id}.htm`,
             idToPicUrl: (id) => `https://static.thenude.com/models/${id.replace(/_(\D)/," $1")}/starthumb.jpg`,
             favicon:    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC3ElEQVRYhe2X30taYRjHX8dezjKOKC6treVSwubsQGJMCEyW4I2M7eYwWgRSXRhteaNgY+JFshhywhBTNAlk6KSU7roRuoghEoTY7S66CvonvrsI3yGxK08J0cWXw3nOOe/zOc/7/DiHEEIuCCHokS5ID523dc8AeGUfnHYBbocNbocNGhV/twDGF0Oo5eNoVrJolFKYnrTePcDxnoRWNYfT8s4DwAPAPQXgFApwlN4tQLvBBH0iEuFVpCMBSCE/vnz6gCnrOAO6FQDBbEQ6EkCjlML54e4N1YtJxNYWMTKkkx/AaRdwlNnE+eEuWtUcO57tZ9CsZDvsP398hXfGgVo+Lg+AxWTocF4vJiGF/BA9LrgdNogeF6SQH/ViEq1qDq1qDkeZTTRKqe4BOEohhfzM+fGeBO+M40bycZTi/dtpFvZWNYdmJYtmJdsdgGA24qSQYG8ielwdVTBIH4FTKJht3utm2yILwLzXzfa28D0MXtl3vS1PHqPwUo3f5qfYHlZBTx+BEAKNisev+Df5IhD0iSzL15fnmH17WIUrQY/LiWt9Huhn16IrCzg/3JUHYH15jgEEfSILfXlUwwCuBD1iz/gbz8gC4P/4jgFIIT9LviWtEn9e63A5oUfz1QBmeY4lYyK8Kh+A22HDaXkHrWoOtXwcFpOBRWGW57CkVeJN/7+KsJgMrP5lAdBp1TjYirLSSoRXodOq/3tvOhLocN41ACEEoseFs/0MWzgdCWB60gqNigdHKTQqHk67gPxGkIGe7WdYOXYNwFGK6MoCmpUsc1AvJnGwFUV+I4iDrWhHF2yUUoitLco7C3hlH4I+EfVisqPvt9U+P96TMO91w2IyyD8NOUrhtAuQQn7U8nE0SimclndQLyZxlNlEbG0RNssYCCEYfT7I5sFJISHvBwlHKUaGdJiyjsNpF2CzjEGnVXe0ZI5SCGYjbJYxCGYj66CyANySeg/Q09/zv7h1rxXrX+evAAAAAElFTkSuQmCC",
+        },
+        eurobabeindex: {
+            name:       "Eurobabeindex",
+            url:        "https://www.eurobabeindex.com",
+            idToUrl:    (id) => `https://www.eurobabeindex.com/sbandoindex/${id}.html`,
+            //idToPicUrl: (id) => `https://www.eurobabeindex.com/sbandoindex/thumbnails/shadows/${id}.jpg`,   //Hotlinking doesn't seem to work
+            favicon:    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVQ4jWM4c+bMf0oww5kzZ/6Hhq7CwGfOnPn/40YGCoZpevfu3f93796RbgDMEJwGoDsPWdNIMQDdILJjgWwDBj4MBt4AipMy2ZmJEgwACdw1nu9RXwgAAAAASUVORK5CYII=",
         },
         indexxx: {
             name:       "Indexxx",
@@ -80,7 +80,7 @@ Sites = {
             name:       "PornTeenGirl",
             url:        "http://www.pornteengirl.com/",
             idToUrl:    (id) => `http://www.pornteengirl.com/model/${id}.html`,
-            idToPicUrl: (id) => `http://www.pornteengirl.com/images/models/${id}pic.jpg`,
+            //idToPicUrl: (id) => `http://www.pornteengirl.com/images/models/${id}pic.jpg`,
             //FIXME sometimes the pis url is ...pic2.jpg    oh my....
             favicon:    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAASElEQVQ4jWOQmHHxPyWYgSoGfDv5DAWji1HFAHQ1MHG4ATAT8bEpNgCvFyg2AFugkeUCZEwzA/AGIrEuGBgDcKYDivPCgBoAAJWvyR/GZDulAAAAAElFTkSuQmCC",
         },
@@ -102,7 +102,6 @@ Sites = {
     getUrl: (label,id) => Sites.data[label] && Sites.data[label].idToUrl ? Sites.data[label].idToUrl(id) : null,
     getPictureUrl: (label,id) => Sites.data[label] && Sites.data[label].idToPicUrl ? Sites.data[label].idToPicUrl(id) : null,
     findPictureUrl: ( pornstarObject ) => {
-//console.log(pornstarObject);
         // pornstarObject = { ids: { id: [arrayOfLabels] } }
         let urls = [];
         pornstarObject.getIds().forEach( id => {
