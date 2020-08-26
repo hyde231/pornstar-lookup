@@ -27,6 +27,11 @@ Added on Aug 24th & 25th
 
 The challenge is to create a combined list, that does not include 260k+ entries but groups as many duplictes as possible.
 
+## Data Browser
+The [data](/src/data/Pornstars.combined.json) is in pure JSON format, however, a very minimalistic web app is provided to explore the data.
+
+![screenshot](/public/screenshot.jpg)
+
 ## Installation
 - Prerequisites: Git & Node.js installed
 - `git clone` this repo into a project directory of your choice
