@@ -2,12 +2,12 @@
 
 NSFW !!!
 
-Listing 136651 individual pornstars with 281427 aliases, based on 267600 raw entries scraped from 10 different soruces.
+Listing 147884 individual pornstars with 301587 aliases, based on 301922 raw entries scraped from 17 different soruces.
 
 ## Purpose
-This is an attempt to combine female pornstar identities that have different names according to different sources. By using heuristics on names and aliases used, there should be a way to find similarities and therefore link duplicates together.
+This is an attempt to combine female pornstar identities that have different names according to different sources. By using heuristics on names and aliases used, there should be a way to find similarities and link duplicates together.
 
-Sources scraped and used as of Aug 06th, 2020:
+Sources scraped and used as of Aug, 2020:
 - https://www.freeones.xxx/ : 50315 entries
 - https://www.indexxx.com/ : 51355 entries (+ aliases)
 - https://thenude.com : 39060 entries (+ aliases)
@@ -17,15 +17,16 @@ Sources scraped and used as of Aug 06th, 2020:
 - http://www.boobpedia.com/ : 10828 entries (pornstars only)
 - https://www.adultdvdempire.com/ : 11282 entries (female only)
 - https://metadataapi.net/ : 18981 entries (female only)
-
-Added on Aug 24th & 25th
 - https://www.mypornstarbook.net/ : 3678 entries
 - https://www.kindgirls.com/ : 1441 entries
 - http://www.pornteengirl.com : 5574 entries
 - http://www.data18.com : 12438 entries
 - https://www.porn-star.com/ : 8627 entries
+- https://www.tiava.com/ : 13947 performer (female only)
+- http://www.egafd.com/ : 5572 performer
+- https://www.pornhub.com/ : 14803 (female only, pornstars only)
 
-The challenge is to create a combined list, that does not include 260k+ entries but groups as many duplictes as possible.
+The challenge is to create a combined list, that does not include 300k+ entries but groups as many duplictes as possible.
 
 ## Data Browser
 The [data](/src/data/Pornstars.combined.json) is in pure JSON format, however, a very minimalistic web app is provided to explore the data.

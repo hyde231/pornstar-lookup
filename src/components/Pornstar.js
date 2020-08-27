@@ -71,7 +71,7 @@ const Pornstar = ({data}) => {
                                     {data.ids.getScopes(id).map( scope => {
                                         return (
                                             <a href={Sites.getUrl(scope,id)} target="_blank"  rel="noopener noreferrer">
-                                                { React.createElement("img", {src:(Sites.getFavIcon(scope)), width:"12px", height:"12px", style:{padding:"4px",filter:"sepia(0%)"} } ) }
+                                                { React.createElement("img", {src:(Sites.getFavIcon(scope)), width:"16px", height:"16px", style:{padding:"3px",filter:"sepia(0%)"} } ) }
                                             </a>
                                         );
                                     })}

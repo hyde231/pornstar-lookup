@@ -19,6 +19,7 @@ class ScopedList{
     }
     toJSON(){ return this.list; }
     hasEntry(entry,scope){ return !!this.list[entry] && (!!scope?this.list[entry].includes(scope):true) ; }
+    find(str,scope){ return this.getEntries(scope).some( entry=>entry.indexOf(str)!==-1 ) }
     getEntries(scope){ return Object.keys(this.list).filter(entry => !!scope?this.list[entry].includes(scope):true ); }
     getScopes(entry){ return !!entry?this.list[entry]:Object.keys(this.list).reduce((a,entry)=>{return a.concat(this.list[entry])},[]); }
     compare(o){ //get intersection of two scoped lists (same entry with same scope)

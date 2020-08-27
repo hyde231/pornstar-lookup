@@ -1,27 +1,48 @@
 import React from 'react';
 import './App.css';
-
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar'
 import TypoGraphy from '@material-ui/core/Typography'
+import IconButton from '@material-ui/core/IconButton';
 import { GitHub } from '@material-ui/icons'
 import Grid from '@material-ui/core/Grid';
 
 import Pornstar from './components/Pornstar.js';
 const { IdentityList } = require("./IdentityList.js");
+console.log("importing data");
 const Data = require("./data/Pornstars.combined.json"); 
+console.log("setting up database")
 let Pornstars = new IdentityList(Data);
-let scopes = new Set();
-Pornstars.list.forEach( ps => {
-  ps.names.getScopes().forEach( s => scopes.add(s) );
-});
 
-//TODO Lookup into on Component
+let allScopes = new Set();
+Pornstars.list.forEach( ps => {
+  ps.names.getScopes().forEach( s => allScopes.add(s) );
+});
+console.log("build list of names");
+
+let allNames = new Set(); //For autocomplete
+Pornstars.list.forEach( pornstar => {
+  pornstar.getNames().forEach( name => allNames.add(name) );
+});
+console.log("ready");
+
+//Installation
+//TODO Provide dockerfile + build instructions
+//TODO provide docker-compose
+
+//Functionality
+//TODO use a database and have the json as an export result? Or add saving/loading functionality
+//TODO allow to select cards in order to merge them
+//TODO extract all data from one source into its own entry (to correct an error)
+//TODO undo / redo 
+
+//UI
+//TODO Lookup into own Component
 //TODO Statistics on search results (results found, out of x entries, in Y ms)
 //TODO Highlight search terms
-//TODO select list component
 //TODO Search for substrings
 //TODO search for combination of names
+//TODO use routes and a view for /performer/{uuid} and /performer/?q=bla
 
 const LookupForm = ({lookup}) => {
   let input;
@@ -46,7 +67,10 @@ class Lookup extends React.Component{
     this.state = {data:[]};
   }
   lookup(s){
+    //TODO show spinning wheels
     this.setState( {data: Pornstars.getByName(s) } );
+    //TODO hide spinning wheels
+    //TODO show result statistics
   }
   render(){
     return (
@@ -83,18 +107,19 @@ function App() {
             Pornstar Identity Lookup 
           </TypoGraphy>
 
-          <TypoGraphy variant="inherit"
+          <IconButton
+            edge="end"
             color="inherit"
-            align="right"
+            aria-label="Github link"
           >
             <a
               href="https://github.com/hyde231/pdb"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <GitHub style={{ color: '#ffffff'}}/>
+              <GitHub/>
             </a>
-          </TypoGraphy>
+          </IconButton>
         </Toolbar>
       </AppBar>
       <Lookup />
