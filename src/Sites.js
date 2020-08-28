@@ -115,6 +115,12 @@ Sites = {
             idToUrl:    (id) => `https://www.pornhub.com/pornstar/${id}`,
             favicon:    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABg0lEQVQ4jcWTwUvUURSFv9EwKohpmYzQutIcCoIWFYhESMgIhYE7R8iCai20CmsGEl1UNo4UTcFY5iKJYHBRBFLLdq4SSpcR/Qdfi/uCXxK5KGhxee+edzi8+855WMO/Kf6dwFymsqR6qiyvnhWYRefR5Uy9QpfQB+gLtIneR++hT9JZHZ1FbOD3GbzehxeOYd8BHDmO7yeCOHgEbw6iz6JvlnGoiF+nQgwXcf0WAna0Y7E79oAfbsR6uBNtoW/xyunA1ifR54gL+LkS4PJlVLQR/egJPNSJ53rQN+gq3i7F2UYFXUgCGxXM5YJ45yqWeoPUHMOBbmxvw/xuzO/BnTui36xmBDarAbblsAPcuwunhuOKhX1YyGO5H8tnsLcreL8IfEkjVEvo6xjBFvo48PNH0Y/oGt69uHWERfw0GeDEWfQd+ijZNR/4wf3J2hW8dHLrIzbw2zSOn8LWtWRXDX0YXg8Vt7PxZ5Beok9TWGopRLUUmj8GKRvR3+V92yj/79/4A210SJitv6iwAAAAAElFTkSuQmCC",
         },
+        iafd: {
+            name:       "International Adult Film Database",
+            url:        "http://www.iafd.com/",
+            idToUrl:    (id) => `http://www.iafd.com/person.rme/${id}`,
+            favicon:    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAnklEQVRYhe2U3QrAIAhGfXShF/PN3NWGOH9qYxVDwRv91JNFwIsNCqAACuAWAGCAMa6zxqsLc56YiIaGE9HlIz1NLK9RBvBE03UFcsUyp+NZbghAi8+teIPkFejYa4DoNJE+0nQDZKeZCtDb/F8AMtb7BrKaEIDZ/gfkK9d579+IakKAmbYPgLWur7wAGmIBFMCGAMzMDXGamwArrAAOhMe2x2AWYigAAAAASUVORK5CYII=",
+        },
     },
 
     getUrl: (label,id) => Sites.data[label] && Sites.data[label].idToUrl ? Sites.data[label].idToUrl(id) : null,
