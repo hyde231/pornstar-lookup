@@ -2,7 +2,7 @@
 
 NSFW !!!
 
-Listing 147884 individual pornstars with 301587 aliases, based on 301922 raw entries scraped from 17 different soruces.
+Aggregating and listing 204764 aliases individual pornstars with 395792 aliases, based on 395792 raw entries scraped from 18 different soruces.
 
 ## Purpose
 This is an attempt to combine female pornstar identities that have different names according to different sources. By using heuristics on names and aliases used, there should be a way to find similarities and link duplicates together.
@@ -25,8 +25,9 @@ Sources scraped and used as of Aug, 2020:
 - https://www.tiava.com/ : 13947 performer (female only)
 - http://www.egafd.com/ : 5572 performer
 - https://www.pornhub.com/ : 14803 (female only, pornstars only)
+- https://www.iafd.com/ : 83326 (female only with debut from 1990 on)
 
-The challenge is to create a combined list, that does not include 300k+ entries but groups as many duplictes as possible.
+The challenge is to create a combined list, that does not include 400000 entries but groups as many duplictes as possible.
 
 ## Data Browser
 The [data](/src/data/Pornstars.combined.json) is in pure JSON format, however, a very minimalistic web app is provided to explore the data.
@@ -37,7 +38,7 @@ The [data](/src/data/Pornstars.combined.json) is in pure JSON format, however, a
 - Prerequisites: Git & Node.js installed
 - `git clone` this repo into a project directory of your choice
 - `npm start`
-- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser (takes some time to load).
 
 ## Method of aggregation
 ...to be updated...
