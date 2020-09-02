@@ -37,6 +37,7 @@ The [data](/src/data/Pornstars.combined.json) is in pure JSON format, however, a
 ## Installation
 - Prerequisites: Git & Node.js installed
 - `git clone` this repo into a project directory of your choice
+- `npm install` install dependencies within that projet directory
 - `npm start`
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser (takes some time to load).
 
