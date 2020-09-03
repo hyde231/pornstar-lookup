@@ -140,6 +140,17 @@ In the example below, the performer is listed with the id 'adrianna-sage' (with 
 }
 ```
 
+## Todo
+
+Other potential sources to scrape:
+- https://www.hotmovies.com/porn-star/?letter=A&subletter=all
+- https://www.dvderotik.com/en/pornostars
+- http://www.adultfilmdatabase.com/browse.cfm?type=actor&page=105&dsp=60&sb=name&gf=F&if=&dspas=grid
+- http://www.babesandstars.com/
+- http://bgafd.co.uk/actresses/index.php/index/k
+- http://www.europornstar.com/a-pornstars.html
+- http://www.awmdb.com/browse/starsbyletter/A/
+
 ## Future use of the data
 The data allows to search for names / aliases and get references to profile pages of numerous aggregators for identification purposes.
 
