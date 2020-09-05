@@ -121,6 +121,13 @@ Sites = {
             idToUrl:    (id) => `http://www.iafd.com/person.rme/${id}`,
             favicon:    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAnklEQVRYhe2U3QrAIAhGfXShF/PN3NWGOH9qYxVDwRv91JNFwIsNCqAACuAWAGCAMa6zxqsLc56YiIaGE9HlIz1NLK9RBvBE03UFcsUyp+NZbghAi8+teIPkFejYa4DoNJE+0nQDZKeZCtDb/F8AMtb7BrKaEIDZ/gfkK9d579+IakKAmbYPgLWur7wAGmIBFMCGAMzMDXGamwArrAAOhMe2x2AWYigAAAAASUVORK5CYII=",
         },
+        bgafd: {
+            name:       "British Girls Adult Film Database",
+            url:        "http://www.bgafd.co.uk/",
+            idToUrl:    (id) => `http://www.bgafd.co.uk/actresses/details.php/id/${id}`,
+            favicon:    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACbUlEQVQ4ja2TW0jTcRiGfyQqdPO/0oJK2cggFdQ0D0gIo5G2VKjQWQSxSCIMT1AqebjRKaGBU0s009TMNWmZJwqP6QwSulCDqXhrmMwdyB1we7pQ8sJLey8/Pt6P7+F9BUeUOLpBcycAfV+3kSJ1SNFNSDHNJGiG8ZQ1wE0NPcZ1pAgd0sUWpJiXZD+eYPvJc2jrRsxWvYWyGtjYZNkCZ1I6EEHVhKuNeIq0kKam4/0a4kQt4kI79cUGPPdK4NsCXi+I06p3tBd0w4MyWFxmwwYpt42EpOtxFdaASk1zr5mg+HZa83ugTAs/V1izglLzCXHuai8nL/eRVznDZsULmDIB8GFhB2ehFhRZLJmdLDYMQEMrACNLu4Sl9nFW2YXACz4P/HHuU3H7DgiV1OGMTz8EzmaDXRfgBYEyB5IyICmD3YR0XImZOOPSccWm4ZAlYz8VhzNWtT+/hjtOhS9xbx9lDsIRHIU9UI49UI7VX8bWsRAsAXIs/jKsUgS2oGi2/ELZ8gvFEiBn21+GPVCGPVCOIzgKwfAsfJzGrR+HgUmY+wFDU/B5Bl/WQxznFTAxD+Mm0I/C2DwuwxQYp2B4FqHIHSMiw8CVwmkcAF4fVDfya8XObkUjvuTrB8/PfcfbNUh+q5nw7BFSNCMIKaSO7KIJLG5g0gSlzyi930O8ZgxnQQ2kqnmlXyUz7wseJzA6zu9bxZQ/MiAldyLq+9f33I1DbOdWcidvCCFvJOyG4V+Q2vWriONVxGT2YwVYNkN5LT2l/QgcO1CixfT0DZfuDiJFtSBFNx2OcqQOKVKHXPEa/Zxt72hb7/8o0xH1F9/jJPzWlwixAAAAAElFTkSuQmCC",
+        },
+
     },
 
     getUrl: (label,id) => Sites.data[label] && Sites.data[label].idToUrl ? Sites.data[label].idToUrl(id) : null,

@@ -2,7 +2,7 @@
 
 NSFW !!!
 
-Aggregating and listing 204764 aliases individual pornstars with 395792 aliases, based on 395792 raw entries scraped from 18 different soruces.
+Aggregating and listing 214689 individual pornstars with 411303 aliases, based on 396186 raw entries scraped from 18 different soruces.
 
 ## Purpose
 This is an attempt to combine female pornstar identities that have different names according to different sources. By using heuristics on names and aliases used, there should be a way to find similarities and link duplicates together.
@@ -23,9 +23,10 @@ Sources scraped and used as of Aug, 2020:
 - http://www.data18.com : 12438 entries
 - https://www.porn-star.com/ : 8627 entries
 - https://www.tiava.com/ : 13947 performer (female only)
-- http://www.egafd.com/ : 5572 performer
+- http://www.egafd.com/ : 13780 performer
 - https://www.pornhub.com/ : 14803 (female only, pornstars only)
 - https://www.iafd.com/ : 83326 (female only with debut from 1990 on)
+- http://www.bgafd.co.uk/ : 2733 entries
 
 The challenge is to create a combined list, that does not include 400000 entries but groups as many duplictes as possible.
 
@@ -147,7 +148,6 @@ Other potential sources to scrape:
 - https://www.dvderotik.com/en/pornostars
 - http://www.adultfilmdatabase.com/browse.cfm?type=actor&page=105&dsp=60&sb=name&gf=F&if=&dspas=grid
 - http://www.babesandstars.com/
-- http://bgafd.co.uk/actresses/index.php/index/k
 - http://www.europornstar.com/a-pornstars.html
 - http://www.awmdb.com/browse/starsbyletter/A/
 
