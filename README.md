@@ -150,6 +150,12 @@ Other potential sources to scrape:
 - http://www.babesandstars.com/
 - http://www.europornstar.com/a-pornstars.html
 - http://www.awmdb.com/browse/starsbyletter/A/
+- https://www.brdteengal.com/228/model/violla-a/
+- https://www.eroticbeauties.net/model/zoey-kush/
+- https://www.hotmovies.com/porn-star/102994/Abbey-Brooks.html?vod=221655
+- http://www.adultfilmdatabase.com/actor/abbey-brooks-45599/
+- https://pornstarbyface.com/Girls
+
 
 ## Future use of the data
 The data allows to search for names / aliases and get references to profile pages of numerous aggregators for identification purposes.
