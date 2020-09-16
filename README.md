@@ -7,7 +7,7 @@ Aggregating and listing 214689 individual pornstars with 411303 aliases, based o
 ## Purpose
 This is an attempt to combine female pornstar identities that have different names according to different sources. By using heuristics on names and aliases used, there should be a way to find similarities and link duplicates together.
 
-Sources scraped and used as of Aug, 2020:
+Sources scraped and merged as of Aug, 2020:
 - https://www.freeones.xxx/ : 50315 entries
 - https://www.indexxx.com/ : 51355 entries (+ aliases)
 - https://thenude.com : 39060 entries (+ aliases)
@@ -28,10 +28,14 @@ Sources scraped and used as of Aug, 2020:
 - https://www.iafd.com/ : 83326 (female only with debut from 1990 on)
 - http://www.bgafd.co.uk/ : 2733 entries
 
+raw data, not yet merged
+- https://www.europornstars.com/ : 5549 entries
+- https://www.hotmovies.com/ : 19979 entries
+
 The challenge is to create a combined list, that does not include 400000 entries but groups as many duplictes as possible.
 
 ## Data Browser
-The [data](/src/data/Pornstars.combined.json) is in pure JSON format, however, a very minimalistic web app is provided to explore the data.
+The [combined data](/src/data/Pornstars.combined.json) is in pure JSON format, however, a very minimalistic web app is provided to explore the data.
 
 ![screenshot](/public/screenshot.jpg)
 
@@ -144,15 +148,12 @@ In the example below, the performer is listed with the id 'adrianna-sage' (with 
 ## Todo
 
 Other potential sources to scrape:
-- https://www.hotmovies.com/porn-star/?letter=A&subletter=all
 - https://www.dvderotik.com/en/pornostars
 - http://www.adultfilmdatabase.com/browse.cfm?type=actor&page=105&dsp=60&sb=name&gf=F&if=&dspas=grid
 - http://www.babesandstars.com/
-- http://www.europornstar.com/a-pornstars.html
 - http://www.awmdb.com/browse/starsbyletter/A/
 - https://www.brdteengal.com/228/model/violla-a/
 - https://www.eroticbeauties.net/model/zoey-kush/
-- https://www.hotmovies.com/porn-star/102994/Abbey-Brooks.html?vod=221655
 - http://www.adultfilmdatabase.com/actor/abbey-brooks-45599/
 - https://pornstarbyface.com/Girls
 
