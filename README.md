@@ -7,30 +7,34 @@ Aggregating and listing 214689 individual pornstars with 411303 aliases, based o
 ## Purpose
 This is an attempt to combine female pornstar identities that have different names according to different sources. By using heuristics on names and aliases used, there should be a way to find similarities and link duplicates together.
 
-Sources scraped and merged as of Aug, 2020:
-- https://www.freeones.xxx/ : 50315 entries
-- https://www.indexxx.com/ : 51355 entries (+ aliases)
-- https://thenude.com : 39060 entries (+ aliases)
-- https://www.eurobabeindex.com/: 5118 entries (+ aliases)
-- https://www.pornpics.com/ : 18950 entries
-- https://www.babepedia.com/ : 29950 entries
-- http://www.boobpedia.com/ : 10828 entries (pornstars only)
-- https://www.adultdvdempire.com/ : 11282 entries (female only)
-- https://metadataapi.net/ : 18981 entries (female only)
-- https://www.mypornstarbook.net/ : 3678 entries
-- https://www.kindgirls.com/ : 1441 entries
-- http://www.pornteengirl.com : 5574 entries
-- http://www.data18.com : 12438 entries
-- https://www.porn-star.com/ : 8627 entries
-- https://www.tiava.com/ : 13947 performer (female only)
-- http://www.egafd.com/ : 13780 performer
-- https://www.pornhub.com/ : 14803 (female only, pornstars only)
-- https://www.iafd.com/ : 83326 (female only with debut from 1990 on)
-- http://www.bgafd.co.uk/ : 2733 entries
+Sources 
 
-raw data, not yet merged
-- https://www.europornstars.com/ : 5549 entries
-- https://www.hotmovies.com/ : 19979 entries
+| Site 							| Merged | Index scraped | Entries scraped | Entries | Names / Aliases | Bio / Data | X-References | Remark |
+| ---- 							| ---- | ---- | ---- 	| -------:	| --------:	| ---- 	| ---- 	| ---- 	|
+|https://www.freeones.xxx/ 		| true | true | true	| 50,315 	| 77,919 	| true 	|  		|		|
+|https://www.indexxx.com/ 		| true | true |   		| 51,498 	| 79,333 	| soon 	| soon 	|		|
+|https://thenude.com 			| true | true | true 	| 39,060 	| 96,193 	| true 	| true 	|		|
+|https://www.eurobabeindex.com/ | true | true | true 	| 5,118 	| 25,318 	|  		| true 	| 		|
+|https://www.pornpics.com/ 		| true | true |    		| 18,950 	| 37,469 	| 		|		|		|
+|https://www.babepedia.com/ 	| true | true | true	| 29,952	| 59,331	| true	| true  | 		|
+|http://www.boobpedia.com/ 		| true | true | true	| 10,851 	| 29,333	| true	| true	| pornstars only|
+|https://www.adultdvdempire.com/| true | true | true	| 11,282	| 19,242	| true	|		| female only	|
+|https://metadataapi.net/		| true | true |    		| 18,981	| 18,981	|		|		| female only, outdated |
+|https://www.mypornstarbook.net/| true | true |    		| 3,687		| 3,687		|		|		|		|
+|https://www.kindgirls.com/		| true | true |    		| 1,441		| 1,441		|		|		|		|
+|http://www.pornteengirl.com	| true | true |    		| 5,574		| 5,574		|		|		|		|
+|http://www.data18.com 			| true | true |    		| 12,438	| 12,438	|		|		| female only |
+|https://www.porn-star.com/		| true | true |    		| 8,627		| 8,627		|		|		|		|
+|https://www.tiava.com/ 		| true | true |    		| 13,947	| 13,947	|		|		| female only |
+|http://www.egafd.com/			| true | true |    		| 13,780 	| 34,063	|		|		|		|
+|http://www.bgafd.co.uk/ 		| true | true |    		| 2,733 	| 6,661		|		|		|		| 
+|https://www.pornhub.com/		| true | true | true	| 14,841	| 36,407	| true	| 		| female only, pornstars only |
+|https://www.iafd.com/ 			| true | true | true	| 83,326	| 144,425	| true	| 		| female only with debut from 1990 on |
+|https://www.europornstars.com/ | 		| true | true	| 5,549		| 11,602	| true	|		|		|
+|https://www.hotmovies.com/ 	| 	 	| true | true	| 19,979 	| 28,315	| true	|		|		|
+|http://www.adultfilmdatabase.com/ | 	| true | true	| 7,800		| 25,906	| true	| hardly| female only |
+|http://peachy18.com/ 			| 		| true | soon	| 35,744	| soon		| 		| true	| teens, more to come soon |
+
 
 The challenge is to create a combined list, that does not include 400000 entries but groups as many duplictes as possible.
 
@@ -149,13 +153,14 @@ In the example below, the performer is listed with the id 'adrianna-sage' (with 
 
 Other potential sources to scrape:
 - https://www.dvderotik.com/en/pornostars
-- http://www.adultfilmdatabase.com/browse.cfm?type=actor&page=105&dsp=60&sb=name&gf=F&if=&dspas=grid
 - http://www.babesandstars.com/
 - http://www.awmdb.com/browse/starsbyletter/A/
 - https://www.brdteengal.com/228/model/violla-a/
 - https://www.eroticbeauties.net/model/zoey-kush/
-- http://www.adultfilmdatabase.com/actor/abbey-brooks-45599/
 - https://pornstarbyface.com/Girls
+- https://www.elitebabes.com/top-rated-babes/page/3/
+- http://www.definebabe.com/models/a/page8/
+- http://albagals.com/category/i/
 
 
 ## Future use of the data
