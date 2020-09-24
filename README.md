@@ -12,7 +12,7 @@ This is an attempt to combine female pornstar identities that have different nam
 | Site 						| Merged | Index scraped | Entries scraped | Entries | Names / Aliases | Bio / Data | X-References | Remark |
 | ---- 								| ---- 	| ---- 	| ---- 	| -------:	| --------:	| ---- 	| ---- 	| ---- 	|
 |https://www.freeones.xxx/ 			| true 	| true 	| true	| 50,315 	| 77,919 	| true 	|  		|		|
-|https://www.indexxx.com/ 			| true 	| true 	| soon	| 51,498 	| 79,333 	| soon 	| soon 	|		|
+|https://www.indexxx.com/ 			| true 	| true 	| true	| 51,525 	| 85085 	| 	 	| true 	|		|
 |https://thenude.com 				| true 	| true 	| true 	| 39,060 	| 96,193 	| true 	| true 	|		|
 |https://www.eurobabeindex.com/ 	| true 	| true 	| true 	| 5,118 	| 25,318 	|  		| true 	| 		|
 |https://www.pornpics.com/ 			| true 	| true 	|    	| 18,950 	| 37,469 	| 		|		|		|
@@ -34,7 +34,7 @@ This is an attempt to combine female pornstar identities that have different nam
 |https://www.hotmovies.com/ 		| 	 	| true 	| true	| 19,979 	| 28,315	| true	|		|		|
 |http://www.adultfilmdatabase.com/ 	|	 	| true 	| true	| 7,800		| 25,906	| true	| hardly| female only |
 |http://peachy18.com/ 				| 		| true 	| true	| 42,671	| 45,527	| 		| true	| 		|
-| **Unmerged sum**					|		|		|		| ** 472,400 ** | ** 821,739 ** |	|		|		|
+| **Unmerged sum**					|		|		|		| **472,427** | **827,491** |	|		|		|
 
 
 The challenge is to create a combined list, that does not include 400000 entries but groups as many duplictes as possible.
