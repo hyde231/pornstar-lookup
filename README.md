@@ -34,7 +34,8 @@ This is an attempt to combine female pornstar identities that have different nam
 |https://www.hotmovies.com/ 		| 	 	| true 	| true	| 19,979 	| 28,315	| true	|		|		|
 |http://www.adultfilmdatabase.com/ 	|	 	| true 	| true	| 7,800		| 25,906	| true	| hardly| female only |
 |http://peachy18.com/ 				| 		| true 	| true	| 42,671	| 45,527	| 		| true	| 		|
-| **Unmerged sum**					|		|		|		| **472,427** | **827,491** |	|		|		|
+|https://thelordofporn.com/ 		| 		| true 	| soon	| 1,646		| 3,874		| true	| true	| 		|
+| **Unmerged sum**					|		|		|		| **474,073** | **831,365** |	|		|		|
 
 
 The challenge is to create a combined list, that does not include 400000 entries but groups as many duplictes as possible.
