@@ -11,31 +11,32 @@ This is an attempt to combine female pornstar identities that have different nam
 
 | Site 						| Merged | Index scraped | Entries scraped | Entries | Names / Aliases | Bio / Data | X-References | Remark |
 | ---- 								| ---- 	| ---- 	| ---- 	| -------:	| --------:	| ---- 	| ---- 	| ---- 	|
-|https://www.freeones.xxx/ 			| true 	| true 	| true	| 50,315 	| 77,919 	| true 	|  		|		|
-|https://www.indexxx.com/ 			| true 	| true 	| true	| 51,525 	| 85085 	| 	 	| true 	|		|
-|https://thenude.com 				| true 	| true 	| true 	| 39,060 	| 96,193 	| true 	| true 	|		|
-|https://www.eurobabeindex.com/ 	| true 	| true 	| true 	| 5,118 	| 25,318 	|  		| true 	| 		|
-|https://www.pornpics.com/ 			| true 	| true 	|    	| 18,950 	| 37,469 	| 		|		|		|
-|https://www.babepedia.com/ 		| true 	| true 	| true	| 29,952	| 59,331	| true	| true  | 		|
-|http://www.boobpedia.com/ 			| true 	| true 	| true	| 10,851 	| 29,333	| true	| true	| pornstars only|
-|https://www.adultdvdempire.com/	| true 	| true 	| true	| 11,282	| 19,242	| true	|		| female only	|
-|https://metadataapi.net/			| true 	| true 	|    	| 18,981	| 18,981	|		|		| female only |
-|https://www.mypornstarbook.net/	| true 	| true 	|    	| 3,687		| 3,687		|		|		|		|
-|https://www.kindgirls.com/			| true 	| true 	|    	| 1,441		| 1,441		|		|		|		|
-|http://www.pornteengirl.com		| true 	| true 	|    	| 5,574		| 5,574		|		|		|		|
-|http://www.data18.com 				| true 	| true 	|    	| 12,438	| 12,438	|		|		| female only |
-|https://www.porn-star.com/			| true 	| true 	|    	| 8,627		| 8,627		|		|		|		|
-|https://www.tiava.com/ 			| true 	| true 	|    	| 13,947	| 13,947	|		|		| female only |
-|http://www.egafd.com/				| true 	| true 	|    	| 13,780 	| 34,063	|		|		|		|
-|http://www.bgafd.co.uk/ 			| true 	| true 	|    	| 2,733 	| 6,661		|		|		|		| 
-|https://www.pornhub.com/			| true 	| true 	| true	| 14,841	| 36,407	| true	| 		| female only, pornstars only |
-|https://www.iafd.com/ 				| true 	| true 	| true	| 83,326	| 144,425	| true	| 		| female only with debut from 1990 on |
-|https://www.europornstars.com/ 	| 		| true 	| true	| 5,549		| 11,602	| true	|		|		|
-|https://www.hotmovies.com/ 		| 	 	| true 	| true	| 19,979 	| 28,315	| true	|		|		|
-|http://www.adultfilmdatabase.com/ 	|	 	| true 	| true	| 7,800		| 25,906	| true	| hardly| female only |
-|http://peachy18.com/ 				| 		| true 	| true	| 42,671	| 45,527	| 		| true	| 		|
-|https://thelordofporn.com/ 		| 		| true 	| soon	| 1,646		| 3,874		| true	| true	| 		|
-| **Unmerged sum**					|		|		|		| **474,073** | **831,365** |	|		|		|
+|https://www.freeones.xxx/ 			| true 	| true 	| true	| 50315 	| 77919 	| true 	|  		|		|
+|https://www.indexxx.com/ 			| true 	| true 	| true	| 51525 	| 85085 	| 	 	| true 	|		|
+|https://thenude.com 				| true 	| true 	| true 	| 39060 	| 96193 	| true 	| true 	|		|
+|https://www.eurobabeindex.com/ 	| true 	| true 	| true 	| 5118 		| 25318 	|  		| true 	| 		|
+|https://www.pornpics.com/ 			| true 	| true 	|    	| 18950 	| 37469 	| 		|		|		|
+|https://www.babepedia.com/ 		| true 	| true 	| true	| 29952		| 59331		| true	| true  | 		|
+|http://www.boobpedia.com/ 			| true 	| true 	| true	| 10851 	| 29333		| true	| true	| pornstars only|
+|https://www.adultdvdempire.com/	| true 	| true 	| true	| 11282		| 19242		| true	|		| female only	|
+|https://metadataapi.net/			| true 	| true 	|    	| 18981		| 18981		|		|		| female only |
+|https://www.mypornstarbook.net/	| true 	| true 	|    	| 3687		| 3687		|		|		|		|
+|https://www.kindgirls.com/			| true 	| true 	| true	| 1441		| 3182		| 		|		|		|
+|http://www.pornteengirl.com		| true 	| true 	|    	| 5574		| 5574		|		|		|		|
+|http://www.data18.com 				| true 	| true 	|    	| 12438		| 12438		|		|		| female only |
+|https://www.porn-star.com/			| true 	| true 	|    	| 8627		| 8627		|		|		|		|
+|https://www.tiava.com/ 			| true 	| true 	|    	| 13947		| 13947		|		|		| female only |
+|http://www.egafd.com/				| true 	| true 	|    	| 13780 	| 34063		|		|		|		|
+|http://www.bgafd.co.uk/ 			| true 	| true 	|    	| 2733 		| 6661		|		|		|		| 
+|https://www.pornhub.com/			| true 	| true 	| true	| 14841		| 36407		| true	| 		| female only, pornstars only |
+|https://www.iafd.com/ 				| true 	| true 	| true	| 83326		| 144425	| true	| 		| female only with debut from 1990 on |
+|https://www.europornstars.com/ 	| 		| true 	| true	| 5549		| 11602		| true	|		|		|
+|https://www.hotmovies.com/ 		| 	 	| true 	| true	| 19979 	| 28315		| true	|		|		|
+|http://www.adultfilmdatabase.com/ 	|	 	| true 	| true	| 7800		| 25906		| true	| hardly| female only |
+|http://peachy18.com/ 				| 		| true 	| true	| 42671		| 45527		| 		| true	| 		|
+|https://thelordofporn.com/ 		| 		| true 	| true	| 1646		| 3874		| true	| true	| 		|
+|https://findpornface.com/ 			| 		| true 	| true	| 29559		| 57435		| true	| 		| 		|
+| **Unmerged sum**					|		|		|		| **503632** | **890541** |		|		|		|
 
 
 The challenge is to create a combined list, that does not include 400000 entries but groups as many duplictes as possible.
@@ -163,6 +164,8 @@ Other potential sources to scrape:
 - https://www.elitebabes.com/top-rated-babes/page/3/
 - http://www.definebabe.com/models/a/page8/
 - http://albagals.com/category/i/
+- https://www.worldsex.com/pornstars/sandraluberc/
+- https://pornsites.xxx/pornstars/Piper-Perri
 
 
 ## Future use of the data
