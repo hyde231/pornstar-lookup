@@ -41,7 +41,7 @@ This is an attempt to combine female pornstar identities that have different nam
 The challenge is to create a combined list, that does not include 400000 entries but groups as many duplictes as possible.
 
 ## Data Browser
-The data is provided in pure JSON format, however, a very minimalistic web app is provided to explore the data. This is currently limited to ids and names/aliases, see [the JSON file](/src/data/Pornstars.combined.json.zip) 
+The data is provided in pure JSON format, however, a very minimalistic web app is provided to explore the data. This is currently limited to ids and names/aliases, see [the JSON file](/src/data/Pornstars.combined.json) 
 
 ![screenshot](/public/screenshot.jpg)
 
