@@ -1,8 +1,7 @@
 # Pornstar-Lookup
-
 NSFW !!!
 
-Aggregating and listing 214689 individual pornstars with 411303 aliases, based on 396186 raw entries scraped from 18 different soruces.
+Aggregating and listing 271,658 individual pornstars with 479,247 aliases, based on 472,247 raw entries scraped from 23 different sources into a [single JSON file](/src/data/Pornstars.combined.fulldata.json.zip).
 
 ## Purpose
 This is an attempt to combine female pornstar identities that have different names according to different sources. By using heuristics on names and aliases used, there should be a way to find similarities and link duplicates together.
@@ -30,10 +29,10 @@ This is an attempt to combine female pornstar identities that have different nam
 |http://www.bgafd.co.uk/ 			| true 	| true 	|    	| 2733 		| 6661		|		|		|		| 
 |https://www.pornhub.com/			| true 	| true 	| true	| 14841		| 36407		| true	| 		| female only, pornstars only |
 |https://www.iafd.com/ 				| true 	| true 	| true	| 83326		| 144425	| true	| 		| female only with debut from 1990 on |
-|https://www.europornstars.com/ 	| 		| true 	| true	| 5549		| 11602		| true	|		|		|
-|https://www.hotmovies.com/ 		| 	 	| true 	| true	| 19979 	| 28315		| true	|		|		|
-|http://www.adultfilmdatabase.com/ 	|	 	| true 	| true	| 7800		| 25906		| true	| hardly| female only |
-|http://peachy18.com/ 				| 		| true 	| true	| 42671		| 45527		| 		| true	| 		|
+|https://www.europornstars.com/ 	| true	| true 	| true	| 5549		| 11602		| true	|		|		|
+|https://www.hotmovies.com/ 		| true	| true 	| true	| 19979 	| 28315		| true	|		|		|
+|http://www.adultfilmdatabase.com/ 	| true	| true 	| true	| 7800		| 25906		| true	| hardly| female only |
+|http://peachy18.com/ 				| true	| true 	| true	| 42671		| 45527		| 		| true	| 		|
 |https://thelordofporn.com/ 		| 		| true 	| true	| 1646		| 3874		| true	| true	| 		|
 |https://findpornface.com/ 			| 		| true 	| true	| 29559		| 57435		| true	| 		| 		|
 | **Unmerged sum**					|		|		|		| **503632** | **890541** |		|		|		|
@@ -42,13 +41,14 @@ This is an attempt to combine female pornstar identities that have different nam
 The challenge is to create a combined list, that does not include 400000 entries but groups as many duplictes as possible.
 
 ## Data Browser
-The [combined data](/src/data/Pornstars.combined.json) is in pure JSON format, however, a very minimalistic web app is provided to explore the data.
+The data is provided in pure JSON format, however, a very minimalistic web app is provided to explore the data. This is currently limited to ids and names/aliases, see [the JSON file](/src/data/Pornstars.combined.json.zip) 
 
 ![screenshot](/public/screenshot.jpg)
 
 ## Installation
 - Prerequisites: Git & Node.js installed
 - `git clone` this repo into a project directory of your choice
+- unzip /src/data/Pornstars.combined.json.zip into same directory (necessary due to github filesize limit, it seems)
 - `npm install` install dependencies within that projet directory
 - `npm start`
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser (takes some time to load).
